@@ -7,4 +7,6 @@ function setup() {
 // use draw to make shapes or backgrounds
 function draw() {
     background(205);
+    // draw Line
+    line(20, 50, 420, 110);
 }
