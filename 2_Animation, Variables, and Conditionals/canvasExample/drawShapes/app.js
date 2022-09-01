@@ -26,4 +26,9 @@ function draw() {
 
     // Draw Rectangle
     rect(180, 60, 220, 40);
+
+    // Draw a Circle/Ellipse
+    ellipse(278, -100, 400, 400);
+    ellipse(120, 100, 110, 110);
+    ellipse(412, 60, 18, 18);
 }
