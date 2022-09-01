@@ -2,6 +2,7 @@
 function setup() {
     createCanvas(480, 240);
     // background(205);
+    angleMode(DEGREES);
 }
 
 // use draw to make shapes or backgrounds
@@ -27,8 +28,22 @@ function draw() {
     // // Draw Rectangle
     // rect(180, 60, 220, 40);
 
-    // Draw a Circle/Ellipse
-    ellipse(278, -100, 400, 400);
-    ellipse(120, 100, 110, 110);
-    ellipse(412, 60, 18, 18);
+    // // Draw a Circle/Ellipse
+    // ellipse(278, -100, 400, 400);
+    // ellipse(120, 100, 110, 110);
+    // ellipse(412, 60, 18, 18);
+
+    // Draw a part of a Circle using Arcs
+
+    // Using PI Values for Radians 
+    arc(90, 60, 80, 80, 0, HALF_PI);
+    arc(190, 60, 80, 80, 0, PI + HALF_PI);
+    arc(290, 60, 80, 80, PI, TWO_PI + HALF_PI);
+    arc(390, 60, 80, 80, QUARTER_PI, PI + QUARTER_PI);
+    // Using Degrees for Radians 
+    arc(90, 150, 80, 80, 0, radians(90));
+    arc(190, 150, 80, 80, 0, radians(270));
+    arc(290, 150, 80, 80, radians(180), radians(450));
+    arc(390, 150, 80, 80, radians(45), radians(225));
+
 }
