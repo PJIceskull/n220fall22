@@ -2,7 +2,9 @@
 function setup() {
     createCanvas(480, 240);
     // background(205);
-    angleMode(DEGREES);
+    // // Using angleMode you can convert the values to use either degrees or radians
+    // angleMode(DEGREES);
+    // angleMode(RADIANS);
 }
 
 // use draw to make shapes or backgrounds
