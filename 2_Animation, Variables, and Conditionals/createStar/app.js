@@ -1,5 +1,3 @@
-fillRed = 255, 0, 0;
-
 function setup() {
     createCanvas(500, 500);
 }
@@ -30,9 +28,22 @@ function draw() {
     // line(x1, y1, x2, y2)
 
     // Star
+    // These are my starting lines
     // line 1
     line(250, 125, 200, 250)
     // line 2
-    line(250, 125, 200, 350)
+    line(250, 125, 300, 250)
+
+    // line 3
+    // The Horizaontal Line
+    line(190, 160, 310, 160)
+
+    // These lines connect to the ends of Line 3 and Lines 1 & 2
+    // line 4
+    line(300, 250, 190, 160);
+    // line 5
+    line(200, 250, 310, 160);
+
+    fill(0, 00)
 
 }
