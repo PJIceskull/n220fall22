@@ -9,4 +9,11 @@ function setup() {
 
 function draw() {
     background(200)
+    // Math & Variables
+    x = 20;
+    rect(x, y, 200, h); // Top
+    x = x + 100;
+    rect(x, y + h, 300, h); // Middle
+    x = x - 250;
+    rect(x, y + h * 2, 300, h); // Bottom
 }
