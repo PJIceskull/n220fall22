@@ -2,6 +2,12 @@
 var y = 60;
 var d = 130;
 
+// Examples of creating Variables
+// var x; // Declare x as a variable
+// x = 12; // Assign a value to x
+// var x = 12; // Declare x as a variable and assign a value
+// NOTE: You can't have two variable with the same name, or the program will behave strangely.
+
 function setup() {
     createCanvas(480, 120)
 }
