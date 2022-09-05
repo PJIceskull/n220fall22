@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
     background(200)
-    // Pattern
+    // Line Pattern
     line(20, 40, 80, 80);
     line(80, 40, 140, 80);
     line(140, 40, 200, 80);
