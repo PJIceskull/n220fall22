@@ -25,6 +25,7 @@ function draw() {
     // ellipse(268, 118, 200, 200); // Blue Circle
 
     // Set Transparency 
+    // add a 4th Parameter fill(), which wll control the Opacity
     background(204, 226, 225); // Light Blue Background
     fill(255, 0, 0, 160); // Red Fill Color
     ellipse(132, 82, 200, 200); // Red Circle
