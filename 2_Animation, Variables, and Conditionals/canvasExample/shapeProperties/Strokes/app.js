@@ -5,6 +5,7 @@ function setup() {
 function draw() {
     background(204);
     // Setting Stroke Weight
+    // Set Stroke Weight to 1 pixel
     strokeWeight(1);
     ellipse(75, 60, 90, 90);
     // Set Stroke Weight to 8 pixels
