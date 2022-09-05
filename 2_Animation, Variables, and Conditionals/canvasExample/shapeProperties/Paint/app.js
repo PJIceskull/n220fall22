@@ -1,8 +1,8 @@
 function setup() {
     createCanvas(480, 120);
 
-    // Draw with Color
-    noStroke();
+    // // Draw with Color
+    // noStroke();
 }
 
 function draw() {
@@ -15,6 +15,15 @@ function draw() {
     // fill(102); // Dark Gray
     // ellipse(268, 118, 200, 200); // Dark Gray Circle
 
+    // //  Controling Fill and Stroke
+    // background(204);
+    // fill(153); // Medium Gray
+    // ellipse(132, 82, 200, 200); //Gray Circle
+    // noFill(); // Turn off Fill
+    // ellipse(228, -16, 200, 200); //Outline Circle
+    // noStroke(); // Turn off Stroke
+    // ellipse(268, 118, 200, 200); // Doesn't Draw
+
     // // Draw with Color
     // background(0, 26, 51); // Dark Blue Background
     // fill(255, 0, 0); // Red Fill Color
@@ -24,7 +33,7 @@ function draw() {
     // fill(0, 0, 255); // Blue Fill Color
     // ellipse(268, 118, 200, 200); // Blue Circle
 
-    // Set Transparency 
+    // // Set Transparency 
     // add a 4th Parameter fill(), which wll control the Opacity
     background(204, 226, 225); // Light Blue Background
     fill(255, 0, 0, 160); // Red Fill Color
