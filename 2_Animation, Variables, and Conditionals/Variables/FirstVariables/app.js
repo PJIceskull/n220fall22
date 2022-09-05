@@ -1,6 +1,6 @@
 // variables
 var y = 60;
-var d = 80;
+var d = 130;
 
 function setup() {
     createCanvas(480, 120)
