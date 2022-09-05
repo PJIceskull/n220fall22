@@ -3,5 +3,11 @@ function setup() {
 }
 
 function draw() {
+    background(204);
+
+    // Left Creature
+
+
+    // Right Creature
 
 }
