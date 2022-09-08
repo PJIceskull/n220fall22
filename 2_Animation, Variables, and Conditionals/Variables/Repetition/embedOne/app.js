@@ -11,7 +11,7 @@ function draw() {
     // loop
     for (var y = 0; y <= height; y += 40) {
         for (var x = 0; x <= width; x += 40) {
-            fill(115, 140);
+            fill(255, 140);
             ellipse(x, y, 40, 40);
         }
     }
