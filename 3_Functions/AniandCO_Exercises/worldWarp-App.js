@@ -27,7 +27,7 @@ function draw() {
     x = x + speed; // x position/movement will increase by 5 pixels
     ellipse(x, 250, 75, 75); // draw ellipse
 
-    if (x >= 800) {
+    if (x >= 800) { // if x value to greater than 800
         x = 0; // reset x value/position back to zero
     }
 }
