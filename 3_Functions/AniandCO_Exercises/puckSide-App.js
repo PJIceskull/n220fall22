@@ -33,6 +33,4 @@ function draw() {
     } else { // if Mouse is not being pressed
         fill(255); // fill color white
     }
-
-
 }
