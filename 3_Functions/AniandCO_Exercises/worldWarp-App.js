@@ -1,3 +1,7 @@
+// variables
+var x = 0; // x position movement
+var speed = 5; // move by 5 pixels
+
 function setup() {
     createCanvas(800, 600); // canvas(width,height)
 }
@@ -19,5 +23,8 @@ function draw() {
     } else {
         fill(255) // make fill white
     }
-    ellipse(400, 250, 75, 75);
+
+    x = x + speed;
+    ellipse(x, 250, 75, 75);
+    // ellipse(400, 250, 100, 100);
 }
