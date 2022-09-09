@@ -19,5 +19,5 @@ function draw() {
     } else {
         fill(255) // make fill white
     }
-    ellipse(400, 300, 50, 50);
+    ellipse(400, 250, 75, 75);
 }
