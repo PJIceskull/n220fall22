@@ -8,12 +8,12 @@ function setup() {
 
 function draw() {
     background(255);
-    // // Test
-    // // Draw lines to map out the boundaries.
-    // // line 1
-    // line(0, 0, 0, 600)
-    // // line 2 
-    // line(800, 0, 800, 600)
+    // Test
+    // Draw lines to map out the boundaries.
+    // line 1
+    line(0, 0, 0, 600)
+    // line 2 
+    line(800, 0, 800, 600)
     // // Draw Circle and track it to mouse
     // ellipse(mouseX, mouseY, 50, 50);
     // // text the Boundaries
