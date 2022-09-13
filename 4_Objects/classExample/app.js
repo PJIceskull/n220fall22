@@ -9,15 +9,21 @@ let me = {
     // Varibles and Properties
     name: "Travis",
     age: 36,
-    hungry: true
+    hungry: true,
+    fashionSense: 1
 }
+
+me.age++; //
+me.fashionSense = 5;
 
 function setup() {
     createCanvas(800, 600);
 }
+
 function draw() {
 
 }
+
 function drawface(x, y) {
 
 }
