@@ -1,8 +1,8 @@
 // Variables 
-// let key allows for more scope
-let name = "Travis"; // strings
-let age = "36"; // numerical data
-let hungry = true; // boolean
+// // let key allows for more scope
+// let name = "Travis"; // strings
+// let age = "36"; // numerical data
+// let hungry = true; // boolean
 
 // Object Variable
 let me = {
@@ -13,7 +13,7 @@ let me = {
 }
 
 function setup() {
-    createCanvas(800, 600)
+    createCanvas(800, 600);
 }
 function draw() {
 
