@@ -13,6 +13,10 @@ let me = {
     fashionSense: 1
 }
 
+let orb = {
+    x: 200, y: 50, r: 15
+}
+
 me.age++; //
 me.fashionSense = 5;
 
@@ -21,7 +25,9 @@ function setup() {
 }
 
 function draw() {
-
+    background(0);
+    circle(orb.x, orb.y, orb.r);
+    orb.y += 5;
 }
 
 function drawface(x, y) {
