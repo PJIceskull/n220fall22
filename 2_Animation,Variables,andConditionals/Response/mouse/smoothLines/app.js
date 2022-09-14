@@ -15,4 +15,8 @@ function draw() {
     var targetY = mouseX;
     x += (targetY - y) * easing;
     var weight = dist(x, y, px, py);
+    strokeWeight(weight);
+    line(x, y, px, py);
+    py = y;
+    px = x;
 }
