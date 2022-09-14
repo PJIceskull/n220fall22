@@ -5,6 +5,6 @@ function setup() {
 }
 
 function draw() {
-    background(200)
+    background(200); // background clears canvas
     ellipse(mouseX, mouseY, 9, 9);
 }
