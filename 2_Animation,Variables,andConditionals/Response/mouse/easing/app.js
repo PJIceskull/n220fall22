@@ -5,4 +5,6 @@ var easing = 0.01;
 function setup() {
     createCanvas(480, 120);
 }
-function draw() { }
+function draw() {
+    var targetX = mouseX;
+}
