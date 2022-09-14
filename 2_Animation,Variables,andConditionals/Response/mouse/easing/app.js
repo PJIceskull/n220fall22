@@ -8,4 +8,6 @@ function setup() {
 function draw() {
     var targetX = mouseX;
     x += (targetX - x) * easing; // x = x + (targetX - x) * easing
+    ellipse(x, 40, 12, 12);
+    print(targetX + ":" + x);
 }
