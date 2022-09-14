@@ -7,4 +7,5 @@ function setup() {
 }
 function draw() {
     var targetX = mouseX;
+    x += (targetX - x) * easing; // x = x + (targetX - x) * easing
 }
