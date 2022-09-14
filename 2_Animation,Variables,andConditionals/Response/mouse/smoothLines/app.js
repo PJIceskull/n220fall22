@@ -14,4 +14,5 @@ function draw() {
     x += (targetX - x) * easing;
     var targetY = mouseX;
     x += (targetY - y) * easing;
+    var weight = dist(x, y, px, py);
 }
