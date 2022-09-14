@@ -9,5 +9,5 @@ function draw() {
     // Displays the frame count to the console
     // print("I'm Drawing");
     // print(frameCount);
-    print("I'm Running")
+    print("I'm Running");
 }
