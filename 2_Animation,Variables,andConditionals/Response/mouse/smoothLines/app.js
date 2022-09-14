@@ -7,5 +7,11 @@ var easing = 0.05;
 
 function setup() {
     createCanvas(480, 120);
+    stroke(0, 102);
 }
-function draw() { }
+function draw() {
+    var targetX = mouseX;
+    x += (targetX - x) * easing;
+    var targetY = mouseX;
+    x += (targetY - y) * easing;
+}
