@@ -11,6 +11,7 @@ let tv = {
     screenColor: "#FFFFFF",
     power: true,
     // antennaX: 15, antennaY: 15,
+    // Arrays do not need names
 }
 
 function drawTV() {
