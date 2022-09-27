@@ -1,4 +1,5 @@
 // Variables
+// Array count starts at 0!
 let colors = ["#18206f", "#17255A", "#F5E2C8", "#D88373", "#BD1E1E", "red", "purple"];
 
 // for(var i = 0; i < colors.length; i++) {
