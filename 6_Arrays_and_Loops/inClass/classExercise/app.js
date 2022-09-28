@@ -2,7 +2,7 @@
 let shoeBands = [];
 // Array Index #:    0,  1,  2,  3,  4,  5
 // For Loops
-for (let i = 0; i < array.length; i++) {
+for (let i = 0; i < 10; i++) {
     // do things
     // increase i by 1
 }
