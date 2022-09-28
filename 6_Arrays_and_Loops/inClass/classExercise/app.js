@@ -1,5 +1,6 @@
 // Variable & Arrays
 let words = ["Indiana", "University", "Purdue", "University", "Indianapolis"];
+let wordsReverse = ["Indiana", "University", "Purdue", "University", "Indianapolis"].reverse();
 // Array Index #:    0,  1,  2,  3,  4,  5
 
 // For Loops
@@ -34,5 +35,5 @@ let words = ["Indiana", "University", "Purdue", "University", "Indianapolis"];
 
 // Captialize Words
 for (let i = 0; i < words.length; i++) {
-    console.log(words[i]);
+    console.log(wordsReverse[i]);
 }
