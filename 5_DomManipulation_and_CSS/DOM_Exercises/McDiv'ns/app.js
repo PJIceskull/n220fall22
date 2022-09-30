@@ -1,5 +1,6 @@
 // Variables
 let mcDiv = document.getElementById("mcDiv"); // Target mcDiv ID in html file
+var clickCount = 0; // Variable for counting the # of mouse clicks
 
 // Target Div styles 
 mcDiv.style.color = "#ffffff";
