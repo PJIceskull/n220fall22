@@ -10,3 +10,7 @@ mcDiv.style.height = "100px";
 mcDiv.style.margin = "0 auto";
 
 // Onclick Function
+function addText() {
+    mcDiv.style.backgroundColor = "#ff6600"; // Change background color when click on
+    mcDiv.innerHTML = "mc";
+}
