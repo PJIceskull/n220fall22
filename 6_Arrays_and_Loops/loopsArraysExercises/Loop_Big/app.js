@@ -4,5 +4,6 @@ let loopDiv = document.getElementById("loopDiv"); // Target "loopDiv" id in HTML
 
 // for loop
 for (let i = 0; i < thousands.length; i++) {
-    console.log(thousands[i]);
+    // console.log(thousands[i]);
+    loopDiv.innerHTML = thousands;
 }
