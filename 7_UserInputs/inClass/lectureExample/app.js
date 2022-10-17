@@ -1,0 +1,1 @@
+let txtName = document.getElementById("txtName");
