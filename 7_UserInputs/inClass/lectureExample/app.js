@@ -3,5 +3,5 @@ let txtName = document.getElementById("txtName"); // Create txtname variable by 
 
 // rollDice Function
 function rollDie() {
-    console.log("HI");
+    console.log("HI"); // print to console
 }
