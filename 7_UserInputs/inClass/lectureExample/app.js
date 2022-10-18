@@ -2,4 +2,6 @@ let txtName = document.getElementById("txtName"); // Create txtname variable by 
 // console.log(txtName); // print txtName to console
 
 // rollDice Function
-// function
+function rollDice() {
+    console.log("HI");
+}
