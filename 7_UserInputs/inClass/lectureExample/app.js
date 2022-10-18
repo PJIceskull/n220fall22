@@ -4,4 +4,5 @@ let txtName = document.getElementById("txtName"); // Create txtname variable by 
 // rollDice Function
 function rollDie() {
     console.log("HI"); // print to console
+    // let randroll = Math.random() * 6;
 }
