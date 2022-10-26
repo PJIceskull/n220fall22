@@ -4,5 +4,5 @@ newFortune = document.getElementById("newFortune"); // Target Div with the ID "n
 
 
 function getFortune() {
-
+    console.log("CLicked") // PRint to console when button is clicked
 }
