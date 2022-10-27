@@ -18,3 +18,18 @@ a:hover {
   justify-content: space-between;
   align-items: center;
 }
+
+button {
+  color: #ff6347;
+  background-color: #ffffff;
+  border: 1px solid #ff6347;
+  height: 30px;
+}
+button:hover {
+  color: #ffffff;
+  background-color: #ff6347;
+}
+
+input {
+  height: 25px;
+}
