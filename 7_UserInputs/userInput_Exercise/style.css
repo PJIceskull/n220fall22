@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navLinks {
+  margin: 0 auto;
+  /* background-color: aqua; */
+  max-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLink a:hover {
+  color: #ff6347;
+}
