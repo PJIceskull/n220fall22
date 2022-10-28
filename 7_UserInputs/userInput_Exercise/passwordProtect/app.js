@@ -15,5 +15,7 @@ function checkData() {
         console.log("Correct"); // Print "Correct" to console
         verifyInfo.innerHTML = "Correct";
         verifyInfo.style.color = "#009933"
+    } else if (passWord.value == "Password") {
+        console.log("WRONG!") // Print "Wrong" to console
     }
 }
