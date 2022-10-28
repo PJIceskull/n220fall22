@@ -7,5 +7,5 @@ function printText() {
     // let userText = userValue.innerHTML;
     let userText = userValue.value; // Assign the value the User typed to var UserText
 
-    console.log("Hello" + "" + userText); // Print to Console "Hello + "User Value" "
+    console.log("Hello" + " " + userText); // Print to Console "Hello + "User Value" "
 }
