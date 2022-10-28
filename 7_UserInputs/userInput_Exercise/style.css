@@ -33,3 +33,12 @@ button:hover {
 input {
   height: 25px;
 }
+
+.userInfo-Box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #ff6347; */
+  min-height: 50px;
+}
