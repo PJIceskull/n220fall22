@@ -13,6 +13,7 @@ function checkData() {
     // console.log(userName + " " + passWord);
     if (userName.value == "Username") {
         console.log("Correct"); // Print "Correct" to console
-
+        verifyInfo.innerHTML = "Correct";
+        verifyInfo.style.color = "#009933"
     }
 }
