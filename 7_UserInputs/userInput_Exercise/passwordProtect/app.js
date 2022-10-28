@@ -11,11 +11,14 @@ console.log(passWord.value);
 function checkData() {
     // Test Function
     // console.log(userName + " " + passWord);
-    if (userName.value == "Username") {
+    // (passWord.value == "Password") 
+    if (userName.value == "Username" && passWord.value == "Password") {
         console.log("Correct"); // Print "Correct" to console
         verifyInfo.innerHTML = "Correct";
         verifyInfo.style.color = "#009933"
-    } else if (passWord.value == "Password") {
+    } else {
         console.log("WRONG!") // Print "Wrong" to console
+        verifyInfo.innerHTML = "Wrong Information."
+        verifyInfo.style.color = "#ff0000"
     }
 }
