@@ -14,7 +14,7 @@ function checkData() {
     // (passWord.value == "Password") 
     if (userName.value == "Username" && passWord.value == "Password") { // If both Username and PAssword are Correct
         console.log("Correct"); // Print "Correct" to console
-        verifyInfo.innerHTML = "Sucess";
+        verifyInfo.innerHTML = "Success";
         verifyInfo.style.color = "#009933"
     } else if (userName.value != "Username" && passWord.value == "Password") { // If Username is WRONG but Password is RIGHT
         console.log("Incorrect Username");
