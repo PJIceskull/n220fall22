@@ -41,5 +41,10 @@ input {
   flex-direction: column;
   /* background-color: #ff6347; */
   min-height: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
+}
+
+.userInfo-Box input,
+button {
+  margin-bottom: 15px;
 }
