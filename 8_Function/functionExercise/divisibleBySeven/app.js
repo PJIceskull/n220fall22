@@ -10,4 +10,12 @@ function checkNum() {
 }
 
 // Function is see if number is divisible by Number/7
-function isDivisible(num) { }
+function isDivisible(num) { // "num" stands for number
+    // "quotient" is the solution in dividing numbers
+    quotient = userInput.value % num; // The user's value divided by our number
+    console.log(quotient); // Print to console the "Quotient"
+    if (quotient == 0) {
+        return true;
+    }
+    return false;
+}
