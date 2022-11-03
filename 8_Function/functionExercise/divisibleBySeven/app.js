@@ -3,6 +3,7 @@ let userInput = document.getElementById("userInput"); // Target Element with ID,
 
 console.log(userInput); // Print to the console the userInput
 
+// Function to check the number that user entered
 function checkNum() {
-    console.log(userInput.value);
+    console.log(userInput.value); // PRint to console the user's input
 }
