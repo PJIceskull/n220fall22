@@ -26,9 +26,14 @@ a:hover {
   color: #ffffff;
   border: none;
   height: 35px;
-  /* width: 55px; */
   padding: 0 10px;
 }
-.purpleBox button:hover {
+.purpleBox:hover {
   background-color: #a34ba3;
+}
+.purpleBorder {
+  border: 3px solid #713471;
+  border-radius: 5px;
+  height: 30px;
+  text-align: center;
 }
