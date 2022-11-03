@@ -13,7 +13,7 @@ function checkNum() {
         textResult.innerHTML = "This number can be divide by 7!"; // Insert text to div
     } else { // if not
         console.log("Not Divisible!"); // Print "Not divisible"
-        textResult.innerHTML = "This number can NOT be divide by 7!"; // Insert text to Div
+        textResult.innerHTML = "This number is NOT divisible by 7!"; // Insert text to Div
     }
 
     textResult.style.color = "#713471" // Set font color to purple
