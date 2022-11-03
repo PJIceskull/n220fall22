@@ -2,15 +2,16 @@
 let userInput = document.getElementById("userInput"); // Target Element with ID, userInput
 let textResult = document.getElementById("textResult"); // Target Element with ID, textResult
 
-console.log(userInput); // Print to the console the userInput
+// console.log(userInput); // Print to the console the userInput
 
 // Function to check the number that user entered
 function checkNum() {
     console.log(userInput.value); // PRint to console the user's input
     isDivisible(7); // find if value is divisibe by 7
-    if (userInput.value == true) {
-        textResult.innerText = "This number can be divide by 7!";
-    }
+    textResult.innerHTML = "This number can be divide by 7!";
+    textResult.style.color = "#713471"
+    textResult.style.fontSize = 24 + "px";
+
 }
 
 // Function is see if number is divisible by Number/7
