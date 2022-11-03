@@ -8,3 +8,6 @@ console.log(userInput); // Print to the console the userInput
 function checkNum() {
     console.log(userInput.value); // PRint to console the user's input
 }
+
+// Function is see if number is divisible by Number/7
+function isDivisible(num) { }
