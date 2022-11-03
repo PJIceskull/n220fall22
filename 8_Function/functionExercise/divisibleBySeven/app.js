@@ -1,5 +1,6 @@
 // Variables
 let userInput = document.getElementById("userInput"); // Target Element with ID, userInput
+let textResult = document.getElementById("textResult"); // Target Element with ID, textResult
 
 console.log(userInput); // Print to the console the userInput
 
