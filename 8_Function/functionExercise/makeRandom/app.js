@@ -4,10 +4,14 @@ let resultNum = 0; // Have inital value be 0
 
 // function for the user click generate button
 function displayNum() {
-    console.log("click");
+    // console.log("click");
     generateRandom(1, 10); // Generate a number between 1 and 10
     console.log(resultNum); // Print to console the result Number
-    // displayResult
+    // Display Number tp Div
+    displayResult.innerHTML = resultNum;
+    displayResult.style.color = "#ff4500";
+    displayResult.style.fontSize = 30 + "px";
+    displayResult.style.marginTop = 15 + "px";
 }
 
 // Order of Parameters in function is minimum Number to Max Number
