@@ -7,4 +7,4 @@ function displayNum() {
     console.log("click");
 }
 
-function generateRandom(num1, num2) { }
+function generateRandom(minNum, maxNum) { }
