@@ -8,8 +8,8 @@ https://pjiceskull.github.io/n220fall22/9_ArrayComputation/ArrayComputation_Exer
 
 ## About Project
 
-### Project 1
+### Make Divs
 
-### Project 2
+### Its just average
 
-### Project 3
+### Bad Word Catcher
