@@ -15,3 +15,7 @@ nav {
 a {
   text-decoration: none;
 }
+
+.greyDiv {
+  background-color: #c0c0c0;
+}
