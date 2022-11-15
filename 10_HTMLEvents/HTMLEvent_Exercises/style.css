@@ -19,13 +19,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 15px;
   /* margin: 0 auto; */
 }
 
 .greyDiv {
-  background-color: #c0c0c0;
-  width: 200px;
-  height: 200px;
+  /* background-color: #c0c0c0; */
+  /* width: 200px;
+  height: 200px; */
   margin: 5px;
   /* float: left; */
 }
