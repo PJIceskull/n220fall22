@@ -10,8 +10,23 @@ let makeDiv = document.createElement("div"); // Variable to create div tag.
 
 console.log(divContainer); // Print to console the div tag
 
+
+
 // For loop
 for (i = 0; i < objects.length; i++) {
     console.log(objects[i]); // Print to Console the Array index in Objects
+
     // Create three divs inside of divContainer
+    // makeDiv.innerHTML = objects[i];
+
+    // Style the divs by selecting the objects properties
+    makeDiv.innerText = "Hello";
+
+    makeDiv.style.backgroundColor = objects[i].color;
+    makeDiv.style.height = objects[i].height + "px";
+    makeDiv.style.width = objects[i].width + "px";
+    // Append Div to divContainer
+    divContainer.appendChild(makeDiv);
+
 }
+
