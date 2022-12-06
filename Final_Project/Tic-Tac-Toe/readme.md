@@ -2,4 +2,6 @@
 
 ## Github Pages Link
 
-https://pjiceskull.github.io/n220fall22/10_HTMLEvents/HTMLEvent_Exercises/index.html
+<https://pjiceskull.github.io/n220fall22/Final_Project/Tic-Tac-Toe/index.html>
+
+# Credits & Resources
