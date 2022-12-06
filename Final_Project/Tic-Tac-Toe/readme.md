@@ -4,4 +4,4 @@
 
 <https://pjiceskull.github.io/n220fall22/Final_Project/Tic-Tac-Toe/index.html>
 
-# Credits & Resources
+## Credits & Resources
