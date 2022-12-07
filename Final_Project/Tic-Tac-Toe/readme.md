@@ -6,6 +6,6 @@
 
 ## Credits & Resources
 
-- [Coolor] <https://coolors.co/generate>
-- [W3Schools] <https://www.w3schools.com/>
-- [MDN Web Docs] <https://developer.mozilla.org/en-US/>
+- [Coolors] (https://coolors.co/generate)
+- [W3Schools] (https://www.w3schools.com/)
+- [MDN Web Docs] (https://developer.mozilla.org/en-US/)
