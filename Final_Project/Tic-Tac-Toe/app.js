@@ -12,17 +12,18 @@ const colorPalette = ["#F05D5E", "#0F7173", "#E7ECEF", "#272932", "#D8A47F"];
 
 // DOM Loop for targets the divs
 for (i = 0; i < divBox.length; i++) {
-    console.log(divBox[i]); // PRint to Console the divBox's index
+    console.log(divBox[i]); // Print to Console the divBox's index
     // Assign the value in boxSize var to the divs' height and width
     divBox[i].style.height = boxSize + "px";
     divBox[i].style.width = boxSize + "px";
     divBox[i].style.backgroundColor = colorPalette[2]; // Assign a Color to the divs' bg color using the colorPalette array
     // When one of the divs are clicked
-    // divBox[i].onclick = onMouseClick;
+    divBox[i].onclick = onMouseClick;
 }
 
 
 function onMouseClick() {
-    console.log(i);
-    // console.log(divBox[i]);
+    // console.log(i);
+    console.log(divBox[i]);
+    // console.log(divBox[i - 1]);
 }
