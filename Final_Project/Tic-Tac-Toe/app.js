@@ -8,7 +8,9 @@ let colorPalette = ["#F05D5E", "#0F7173", "#E7ECEF", "#272932", "#D8A47F"];
 // let colorPalette = ["#3B0D11", "#6A3937", "#706563", "#748386", "#9DC7C8"];
 
 for (i = 0; i < divBox.length; i++) {
-    console.log(divBox[i]);
+    console.log(divBox[i]); // PRint to Console the divBox's index
+    // Assign the value in boxSize var to the divs' height and width
     divBox[i].style.height = boxSize + "px";
     divBox[i].style.width = boxSize + "px";
+    divBox[i].style.backgroundColor = colorPalette[2]; // Assign a Color to the divs' bg color using the colorPalette array
 }
