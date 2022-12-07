@@ -8,5 +8,5 @@ let boxSize = 100; // Var for div box size. Use one value since width and height
 // let colorPalette = ["#3B0D11", "#6A3937", "#706563", "#748386", "#9DC7C8"];
 
 for (i = 0; i < divBox.length; i++) {
-
+    console.log(divBox[i]);
 }
