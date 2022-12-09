@@ -20,9 +20,10 @@ for (i = 0; i < divBoxs.length; i++) {
     // Function for mouse & divs interaction
     // When one of the divs are clicked
     // divBoxs[i].onclick = onMouseClick;
-    divBoxs[i].addEventListener("mouseover", highLightDiv);
-    divBoxs[i].addEventListener("click", onMouseClick);
 
+    divBoxs[i].addEventListener("click", onMouseClick);
+    divBoxs[i].addEventListener("mouseover", highLightDiv);
+    divBoxs[i].addEventListener("mouseout", removeHighLight);
 }
 
 
@@ -41,4 +42,9 @@ function highLightDiv(event) {
     // Var for Divs that ws selected
     selectedDiv = event.target; // Make the selected Div to event.target
     selectedDiv.style.backgroundColor = colorPalette[5];
+}
+function removeHighLight(event) {
+    // Var for Divs that ws selected
+    selectedDiv = event.target; // Make the selected Div to event.target
+    selectedDiv.style.backgroundColor = colorPalette[2];
 }
