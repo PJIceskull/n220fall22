@@ -10,7 +10,7 @@ let selectedDiv = "";
 
 // DOM Loop for targets the divs
 for (i = 0; i < divBoxs.length; i++) {
-    console.log(divBoxs[i]); // Print to Console the divBox's index
+    // console.log(divBoxs[i]); // Print to Console the divBox's index
 
     // Assign the value in boxSize var to the divs' height and width
     divBoxs[i].style.height = boxSize + "px";
