@@ -36,11 +36,14 @@ function onMouseClick(event) {
     // console.log(divBox[i]);
     // console.log(divBox[i - 1]);
     selectedDiv.style.backgroundColor = colorPalette[1]; // Change background to test function
+    selectedDiv.innerHTML = "X";
 }
 
 function highLightDiv(event) {
     // Var for Divs that ws selected
     let selectedDiv = event.target; // Make the selected Div to event.target
+    // Print to consle to the div that mouse is hovering
+    console.log(event.target);
     selectedDiv.style.backgroundColor = colorPalette[5];
     // selectedDiv.style.backgroundColor = "rgba(0,0,0,0.4)";
     selectedDiv.innerHTML = "X";
