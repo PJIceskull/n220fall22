@@ -34,12 +34,14 @@ function onMouseClick(event) {
     // Print to consle to the div that was selected
     // console.log(i);
     console.log(event.target);
-    // console.log(divBox[i]);
-    // console.log(divBox[i - 1]);
+
+    // Remove any other event Listeners so that function won't be overwritten
     selectedDiv.removeEventListener("mouseout", removeHighLight);
     selectedDiv.removeEventListener("mouseover", highLightDiv);
+
+    selectedDiv.style.color = "#000000"; // Set font color to Black
     selectedDiv.style.backgroundColor = colorPalette[1]; // Change background to test function
-    selectedDiv.style.opacity = 1;
+
     selectedDiv.innerHTML = letterMarks[0]; // Type a Letter into the Div
 
 }
