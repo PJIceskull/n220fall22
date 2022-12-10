@@ -44,6 +44,7 @@ function highLightDiv(event) {
     selectedDiv.style.backgroundColor = colorPalette[5];
     // selectedDiv.style.backgroundColor = "rgba(0,0,0,0.4)";
     selectedDiv.innerHTML = "X";
+    selectedDiv.style.color = colorPalette[3];
 }
 function removeHighLight(event) {
     // Var for Divs that ws selected
