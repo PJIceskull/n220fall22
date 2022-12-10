@@ -41,7 +41,9 @@ function onMouseClick(event) {
 function highLightDiv(event) {
     // Var for Divs that ws selected
     selectedDiv = event.target; // Make the selected Div to event.target
-    selectedDiv.style.backgroundColor = colorPalette[5];
+    // selectedDiv.style.backgroundColor = colorPalette[5];
+    selectedDiv.style.backgroundColor = "rgba(0,0,0,0.4)";
+    // selectedDiv.style.opacity = "0.5";
 }
 function removeHighLight(event) {
     // Var for Divs that ws selected
