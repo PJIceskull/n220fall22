@@ -36,7 +36,7 @@ function onMouseClick(event) {
     // console.log(divBox[i]);
     // console.log(divBox[i - 1]);
     selectedDiv.style.backgroundColor = colorPalette[1]; // Change background to test function
-    selectedDiv.innerHTML = letterMarks[0];
+    selectedDiv.innerHTML = letterMarks[0]; // Type a Letter into the Div
 }
 
 function highLightDiv(event) {
@@ -46,7 +46,7 @@ function highLightDiv(event) {
     console.log(event.target);
     selectedDiv.style.backgroundColor = colorPalette[5];
     // selectedDiv.style.backgroundColor = "rgba(0,0,0,0.4)";
-    selectedDiv.innerHTML = letterMarks[0]; // Type LetterMark into Div
+    selectedDiv.innerHTML = letterMarks[0]; // Type LetterMarks into Div
     selectedDiv.style.color = colorPalette[3];
 }
 function removeHighLight(event) {
