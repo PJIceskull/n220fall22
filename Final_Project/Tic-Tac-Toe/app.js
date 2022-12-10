@@ -6,7 +6,7 @@ let boxSize = 100; // Var for div box size. Use one value since width and height
 // const colorPalette = ["#C41E3D", "#7D1128", "#FF2C55", "#3C0919", "#E2294F"];
 const colorPalette = ["#F05D5E", "#0F7173", "#E7ECEF", "#272932", "#D8A47F", "#706563"];
 // const colorPalette = ["#3B0D11", "#6A3937", "#706563", "#748386", "#9DC7C8"];
-let selectedDiv = "";
+let selectedDiv = ""; // Global Variable with empty string 
 let letterMarks = ["X", "O"]; // "X" & "O"Letter marks that can be use by thhe player/com
 
 // DOM Loop for targets the divs
