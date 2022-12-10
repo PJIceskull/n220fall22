@@ -29,7 +29,7 @@ for (i = 0; i < divBoxs.length; i++) {
 
 function onMouseClick(event) {
     // Var for Divs that ws selected
-    selectedDiv = event.target; // Make the selected Div to event.target
+    let selectedDiv = event.target; // Make the selected Div to event.target
     // Print to consle to the div that was selected
     // console.log(i);
     console.log(event.target);
@@ -40,13 +40,13 @@ function onMouseClick(event) {
 
 function highLightDiv(event) {
     // Var for Divs that ws selected
-    selectedDiv = event.target; // Make the selected Div to event.target
-    // selectedDiv.style.backgroundColor = colorPalette[5];
-    selectedDiv.style.backgroundColor = "rgba(0,0,0,0.4)";
-    // selectedDiv.style.opacity = "0.5";
+    let selectedDiv = event.target; // Make the selected Div to event.target
+    selectedDiv.style.backgroundColor = colorPalette[5];
+    // selectedDiv.style.backgroundColor = "rgba(0,0,0,0.4)";
+    selectedDiv
 }
 function removeHighLight(event) {
     // Var for Divs that ws selected
-    selectedDiv = event.target; // Make the selected Div to event.target
+    let selectedDiv = event.target; // Make the selected Div to event.target
     selectedDiv.style.backgroundColor = colorPalette[2];
 }
