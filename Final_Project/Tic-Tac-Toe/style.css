@@ -13,4 +13,9 @@
   font-family: sans-serif;
   border: 1px solid black;
   margin-bottom: 15px;
+  font-size: 6em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
