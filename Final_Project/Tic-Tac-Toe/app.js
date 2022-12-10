@@ -11,12 +11,13 @@ let letterMarks = ["X", "O"]; // "X" & "O"Letter marks that can be use by thhe p
 
 // DOM Loop for targets the divs
 for (i = 0; i < divBoxs.length; i++) {
-    // console.log(divBoxs[i]); // Print to Console the divBox's index
+    console.log(divBoxs[i]); // Print to Console the divBox's index
 
     // Assign the value in boxSize var to the divs' height and width
     divBoxs[i].style.height = boxSize + "px";
     divBoxs[i].style.width = boxSize + "px";
     divBoxs[i].style.backgroundColor = colorPalette[2]; // Assign a Color to the divs' bg color using the colorPalette array
+    divBoxs[i].innerHTML = i; // Print the Array index into the Div.
 
     // Function for mouse & divs interaction
     // When one of the divs are clicked
@@ -35,8 +36,12 @@ function onMouseClick(event) {
     console.log(event.target);
     // console.log(divBox[i]);
     // console.log(divBox[i - 1]);
+    selectedDiv.removeEventListener("mouseout", removeHighLight);
+    selectedDiv.removeEventListener("mouseover", highLightDiv);
     selectedDiv.style.backgroundColor = colorPalette[1]; // Change background to test function
+    selectedDiv.style.opacity = 1;
     selectedDiv.innerHTML = letterMarks[0]; // Type a Letter into the Div
+
 }
 
 function highLightDiv(event) {
