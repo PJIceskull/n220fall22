@@ -7,6 +7,7 @@ let boxSize = 100; // Var for div box size. Use one value since width and height
 const colorPalette = ["#F05D5E", "#0F7173", "#E7ECEF", "#272932", "#D8A47F", "#706563"];
 // const colorPalette = ["#3B0D11", "#6A3937", "#706563", "#748386", "#9DC7C8"];
 let selectedDiv = "";
+let letterMarks = ["X", "O"]
 
 // DOM Loop for targets the divs
 for (i = 0; i < divBoxs.length; i++) {
@@ -25,7 +26,6 @@ for (i = 0; i < divBoxs.length; i++) {
     divBoxs[i].addEventListener("mouseover", highLightDiv);
     divBoxs[i].addEventListener("mouseout", removeHighLight);
 }
-
 
 function onMouseClick(event) {
     // Var for Divs that ws selected
