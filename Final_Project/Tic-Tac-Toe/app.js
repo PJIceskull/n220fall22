@@ -7,7 +7,7 @@ let boxSize = 100; // Var for div box size. Use one value since width and height
 const colorPalette = ["#F05D5E", "#0F7173", "#E7ECEF", "#272932", "#D8A47F", "#706563"];
 // const colorPalette = ["#3B0D11", "#6A3937", "#706563", "#748386", "#9DC7C8"];
 let selectedDiv = "";
-let letterMarks = ["X", "O"]
+let letterMarks = ["X", "O"]; // "X" & "O"Letter marks that can be use by thhe player/com
 
 // DOM Loop for targets the divs
 for (i = 0; i < divBoxs.length; i++) {
@@ -36,7 +36,7 @@ function onMouseClick(event) {
     // console.log(divBox[i]);
     // console.log(divBox[i - 1]);
     selectedDiv.style.backgroundColor = colorPalette[1]; // Change background to test function
-    selectedDiv.innerHTML = "X";
+    selectedDiv.innerHTML = letterMarks[0];
 }
 
 function highLightDiv(event) {
@@ -46,11 +46,12 @@ function highLightDiv(event) {
     console.log(event.target);
     selectedDiv.style.backgroundColor = colorPalette[5];
     // selectedDiv.style.backgroundColor = "rgba(0,0,0,0.4)";
-    selectedDiv.innerHTML = "X";
+    selectedDiv.innerHTML = letterMarks[0]; // Type LetterMark into Div
     selectedDiv.style.color = colorPalette[3];
 }
 function removeHighLight(event) {
     // Var for Divs that ws selected
     let selectedDiv = event.target; // Make the selected Div to event.target
     selectedDiv.style.backgroundColor = colorPalette[2];
+    selectedDiv.innerHTML = ""; // Remove text in Div
 }
