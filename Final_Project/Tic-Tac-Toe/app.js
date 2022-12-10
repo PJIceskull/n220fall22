@@ -23,6 +23,7 @@ for (i = 0; i < divBoxs.length; i++) {
     // When one of the divs are clicked
     // divBoxs[i].onclick = onMouseClick;
 
+    // Event Listeners for Mouse Interactions 
     divBoxs[i].addEventListener("click", onMouseClick);
     divBoxs[i].addEventListener("mouseover", highLightDiv);
     divBoxs[i].addEventListener("mouseout", removeHighLight);
