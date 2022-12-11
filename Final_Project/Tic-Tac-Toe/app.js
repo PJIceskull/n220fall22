@@ -61,7 +61,7 @@ function onMouseClick(event) {
     selectedDiv.removeEventListener("mouseover", highLightDiv);
     selectedDiv.removeEventListener("click", onMouseClick); // Remove click listener so div can only be clicked on once. 
 
-    selectedDiv.style.color = colorPalette[0]; // Set font color to Black
+    selectedDiv.style.color = colorPalette[0]; // Set font color to value in ColorPalette
     selectedDiv.style.backgroundColor = colorPalette[2]; // Change background to test function
 
     selectedDiv.innerHTML = letterMarks[0]; // Type a Letter into the Div
@@ -70,6 +70,7 @@ function onMouseClick(event) {
     console.log(turnCounter); // Print to console the count
     turnCounter += 1; // Add 1 to turn count
 
+    // Call determineRow() function
     determineRow(selectedDiv);
 
 }
