@@ -8,6 +8,8 @@ const colorPalette = ["#F05D5E", "#0F7173", "#E7ECEF", "#272932", "#D8A47F", "#7
 // const colorPalette = ["#3B0D11", "#6A3937", "#706563", "#748386", "#9DC7C8"];
 let selectedDiv = ""; // Global Variable with empty string 
 let letterMarks = ["X", "O"]; // "X" & "O"Letter marks that can be use by thhe player/com
+let turnCounter = 1; // Variable counting the number of turns
+
 
 // DOM Loop for targets the divs
 for (i = 0; i < divBoxs.length; i++) {
@@ -17,7 +19,7 @@ for (i = 0; i < divBoxs.length; i++) {
     divBoxs[i].style.height = boxSize + "px";
     divBoxs[i].style.width = boxSize + "px";
     divBoxs[i].style.backgroundColor = colorPalette[2]; // Assign a Color to the divs' bg color using the colorPalette array
-    divBoxs[i].innerHTML = i; // Print the Array index into the Div.
+    // divBoxs[i].innerHTML = i; // Print the Array index into the Div.
 
     // Function for mouse & divs interaction
     // When one of the divs are clicked
@@ -30,7 +32,7 @@ for (i = 0; i < divBoxs.length; i++) {
 }
 
 function onMouseClick(event) {
-    // Var for Divs that ws selected
+    // Var for Divs that are selected
     let selectedDiv = event.target; // Make the selected Div to event.target
     // Print to consle to the div that was selected
     // console.log(i);
@@ -45,6 +47,9 @@ function onMouseClick(event) {
 
     selectedDiv.innerHTML = letterMarks[0]; // Type a Letter into the Div
 
+    // Turn Count
+    console.log(turnCounter); // Print to console the count
+    turnCounter += 1; // Add 1 to turn count
 }
 
 function highLightDiv(event) {
