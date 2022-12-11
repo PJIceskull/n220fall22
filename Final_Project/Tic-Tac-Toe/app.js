@@ -65,7 +65,7 @@ function onMouseClick(event) {
     console.log(turnCounter); // Print to console the count
     turnCounter += 1; // Add 1 to turn count
 
-    determineRowType(selectedDiv);
+    determineRow(selectedDiv);
 
 }
 
@@ -88,7 +88,7 @@ function removeHighLight(event) {
     selectedDiv.innerHTML = ""; // Remove text in Div
 }
 
-function determineRowType(event) {
+function determineRow(event) {
     let rowNum = 0
     for (i = 0; i < 3; i++) {
         if (event == horizotnalRow[0][i]) {
