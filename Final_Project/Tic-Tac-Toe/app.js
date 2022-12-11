@@ -11,9 +11,11 @@ let letterMarks = ["X", "O"]; // "X" & "O"Letter marks that can be use by thhe p
 let turnCounter = 0; // Variable counting the number of turns
 let textMessage = document.getElementById("textMessage");
 
+console.log(divBoxs); // Print divBOx array
+
 // DOM Loop for targets the divs
 for (i = 0; i < divBoxs.length; i++) {
-    console.log(divBoxs[i]); // Print to Console the divBox's index
+    // console.log(divBoxs[i]); // Print to Console the each divBox in the Array
 
     // Assign the value in boxSize var to the divs' height and width
     divBoxs[i].style.height = boxSize + "px";
