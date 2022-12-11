@@ -41,6 +41,7 @@ function onMouseClick(event) {
     // Remove any other event Listeners so that function won't be overwritten
     selectedDiv.removeEventListener("mouseout", removeHighLight);
     selectedDiv.removeEventListener("mouseover", highLightDiv);
+    selectedDiv.removeEventListener("click", onMouseClick); // Remove click listener so div can only be clicked on once. 
 
     selectedDiv.style.color = "#000000"; // Set font color to Black
     selectedDiv.style.backgroundColor = colorPalette[1]; // Change background to test function
