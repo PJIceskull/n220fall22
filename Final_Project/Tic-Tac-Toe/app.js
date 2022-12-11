@@ -8,8 +8,8 @@ const colorPalette = ["#F05D5E", "#0F7173", "#E7ECEF", "#272932", "#D8A47F", "#7
 // const colorPalette = ["#3B0D11", "#6A3937", "#706563", "#748386", "#9DC7C8"];
 let selectedDiv = ""; // Global Variable with empty string 
 let letterMarks = ["X", "O"]; // "X" & "O"Letter marks that can be use by thhe player/com
-let turnCounter = 1; // Variable counting the number of turns
-
+let turnCounter = 0; // Variable counting the number of turns
+let textMessage = document.getElementById("textMessage");
 
 // DOM Loop for targets the divs
 for (i = 0; i < divBoxs.length; i++) {
@@ -29,7 +29,11 @@ for (i = 0; i < divBoxs.length; i++) {
     divBoxs[i].addEventListener("click", onMouseClick);
     divBoxs[i].addEventListener("mouseover", highLightDiv);
     divBoxs[i].addEventListener("mouseout", removeHighLight);
+
 }
+
+// Print out horizotnal row array
+// console.log(winningRow[1][1]);
 
 function onMouseClick(event) {
     // Var for Divs that are selected
@@ -51,6 +55,10 @@ function onMouseClick(event) {
     // Turn Count
     console.log(turnCounter); // Print to console the count
     turnCounter += 1; // Add 1 to turn count
+
+    if (turnCounter == 3) {
+        findWinningRow();
+    }
 }
 
 function highLightDiv(event) {
@@ -70,4 +78,14 @@ function removeHighLight(event) {
     let selectedDiv = event.target; // Make the selected Div to event.target
     selectedDiv.style.backgroundColor = colorPalette[2];
     selectedDiv.innerHTML = ""; // Remove text in Div
+}
+
+// Function for determining the winning row
+function findWinningRow() {
+    const horizontalRow = [
+        [0, 3, 6],
+        [1, 4, 7],
+        [2, 5, 8]
+    ];
+    textMessage.innerHTML = "HELLO ITS ME";
 }
