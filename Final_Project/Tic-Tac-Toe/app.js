@@ -56,9 +56,6 @@ function onMouseClick(event) {
     console.log(turnCounter); // Print to console the count
     turnCounter += 1; // Add 1 to turn count
 
-    if (turnCounter == 3) {
-        findWinningRow();
-    }
 }
 
 function highLightDiv(event) {
@@ -78,14 +75,4 @@ function removeHighLight(event) {
     let selectedDiv = event.target; // Make the selected Div to event.target
     selectedDiv.style.backgroundColor = colorPalette[2];
     selectedDiv.innerHTML = ""; // Remove text in Div
-}
-
-// Function for determining the winning row
-function findWinningRow() {
-    const horizontalRow = [
-        [0, 3, 6],
-        [1, 4, 7],
-        [2, 5, 8]
-    ];
-    textMessage.innerHTML = "HELLO ITS ME";
 }
