@@ -34,9 +34,9 @@ for (i = 0; i < divBoxs.length; i++) {
 function onMouseClick(event) {
     // Var for Divs that are selected
     let selectedDiv = event.target; // Make the selected Div to event.target
+
     // Print to consle to the div that was selected
-    // console.log(i);
-    console.log(event.target);
+    // console.log(event.target);
 
     // Remove any other event Listeners so that function won't be overwritten
     selectedDiv.removeEventListener("mouseout", removeHighLight);
