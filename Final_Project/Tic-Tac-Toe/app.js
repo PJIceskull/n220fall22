@@ -103,20 +103,18 @@ function determineRow(event) {
         }
     }
 
-    // // Vertical Rows
-    // for (i = 0; i < 3; i++) {
-    //     if (event == horizotnalRow[i][0]) {
-    //         textMessage.innerHTML += "WOW!";
-    //     }
-    // }
+    // Vertical Rows
+    for (i = 0; i < 3; i++) {
+        if (event == horizotnalRow[i][0]) {
+            textMessage.innerHTML += "WOW!";
+        }
+    }
 
     // Diagonal Rows
-    // for (i = 0; i < 3; i++) {
-    //     if (event == horizotnalRow[rowNum][i]) {
-    //         textMessage.innerHTML += "WOW!";
-    //     } else {
-    //         rowNum++;
-    //     }
+    for (i = 0; i < 3; i++) {
+        if (event == horizotnalRow[rowNum][i]) {
+            textMessage.innerHTML += "WOW!";
+        }
 
-    // }
+    }
 }
