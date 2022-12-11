@@ -16,6 +16,11 @@ const horizotnalRow = [
     [divBoxs[1], divBoxs[4], divBoxs[7]],
     [divBoxs[2], divBoxs[5], divBoxs[8]]
 ];
+// const verticalRow = [
+//     [],
+//     [],
+//     []
+// ]
 
 console.log(divBoxs); // Print divBox array
 console.log(horizotnalRow);
@@ -90,11 +95,19 @@ function removeHighLight(event) {
 
 function determineRow(event) {
     let rowNum = 0
+    // Horizontal Rows
     for (i = 0; i < 3; i++) {
-        if (event == horizotnalRow[0][i]) {
+        if (event == horizotnalRow[rowNum][i]) {
             textMessage.innerHTML += "WOW!";
         }
     }
+
+    // // Vertical Rows
+    // for (i = 0; i < 3; i++) {
+    //     if (event == horizotnalRow[i][0]) {
+    //         textMessage.innerHTML += "WOW!";
+    //     }
+    // }
 
     // Diagonal Rows
     // for (i = 0; i < 3; i++) {
