@@ -55,8 +55,10 @@ function onMouseClick(event) {
 function highLightDiv(event) {
     // Var for Divs that ws selected
     let selectedDiv = event.target; // Make the selected Div to event.target
-    // Print to consle to the div that mouse is hovering
-    console.log(event.target);
+
+    // console.log(event.target); // Print to consle to the div that mouse is hovering
+
+    // Change Background using a value in colorPalette
     selectedDiv.style.backgroundColor = colorPalette[5];
     // selectedDiv.style.backgroundColor = "rgba(0,0,0,0.4)";
     selectedDiv.innerHTML = letterMarks[0]; // Type LetterMarks into Div
