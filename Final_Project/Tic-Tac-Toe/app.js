@@ -11,7 +11,11 @@ let letterMarks = ["X", "O"]; // "X" & "O"Letter marks that can be use by thhe p
 let turnCounter = 0; // Variable counting the number of turns
 let textMessage = document.getElementById("textMessage");
 
-const horizotnalRow = [divBoxs[0], divBoxs[1], divBoxs[2]];
+const horizotnalRow = [
+    [divBoxs[0], divBoxs[3], divBoxs[6]],
+    [divBoxs[1], divBoxs[4], divBoxs[7]],
+    [divBoxs[2], divBoxs[5], divBoxs[8]]
+];
 
 console.log(divBoxs); // Print divBox array
 console.log(horizotnalRow);
@@ -45,7 +49,7 @@ function onMouseClick(event) {
     let selectedDiv = event.target; // Make the selected Div to event.target
 
     // Print to consle to the div that was selected
-    // console.log(event.target);
+    console.log(event.target);
 
     // Remove any other event Listeners so that function won't be overwritten
     selectedDiv.removeEventListener("mouseout", removeHighLight);
@@ -60,6 +64,8 @@ function onMouseClick(event) {
     // Turn Count
     console.log(turnCounter); // Print to console the count
     turnCounter += 1; // Add 1 to turn count
+
+    determineRowType(selectedDiv);
 
 }
 
@@ -80,4 +86,23 @@ function removeHighLight(event) {
     let selectedDiv = event.target; // Make the selected Div to event.target
     selectedDiv.style.backgroundColor = colorPalette[2];
     selectedDiv.innerHTML = ""; // Remove text in Div
+}
+
+function determineRowType(event) {
+    let rowNum = 0
+    for (i = 0; i < 3; i++) {
+        if (event == horizotnalRow[0][i]) {
+            textMessage.innerHTML += "WOW!";
+        }
+    }
+
+    // Diagonal Rows
+    // for (i = 0; i < 3; i++) {
+    //     if (event == horizotnalRow[rowNum][i]) {
+    //         textMessage.innerHTML += "WOW!";
+    //     } else {
+    //         rowNum++;
+    //     }
+
+    // }
 }
