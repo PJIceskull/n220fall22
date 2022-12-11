@@ -11,7 +11,10 @@ let letterMarks = ["X", "O"]; // "X" & "O"Letter marks that can be use by thhe p
 let turnCounter = 0; // Variable counting the number of turns
 let textMessage = document.getElementById("textMessage");
 
-console.log(divBoxs); // Print divBOx array
+const horizotnalRow = [divBoxs[0], divBoxs[1], divBoxs[2]];
+
+console.log(divBoxs); // Print divBox array
+console.log(horizotnalRow);
 
 // DOM Loop for targets the divs
 for (i = 0; i < divBoxs.length; i++) {
