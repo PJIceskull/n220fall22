@@ -22,9 +22,7 @@ a {
   margin-bottom: 15px;
   /* margin: 0 auto; */
 }
-.wrapper div {
-  margin-bottom: 25px;
-}
+
 .greyDiv {
   /* background-color: #c0c0c0; */
   /* width: 200px;
@@ -36,9 +34,22 @@ a {
   background-color: black;
   width: 50%;
   height: 120px;
+  margin-bottom: 25px;
 }
 .controlValue_Section {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.controlValue_Section p {
+  margin-right: 25px;
+  color: gray;
+}
+.controlValue_Section button {
+  margin: 0 5px;
+  background-color: lightgray;
+  color: #ffffff;
+  border: none;
+  height: 30px;
+  width: 45px;
 }
