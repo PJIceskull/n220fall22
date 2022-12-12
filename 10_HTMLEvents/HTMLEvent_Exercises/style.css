@@ -37,3 +37,8 @@ a {
   width: 50%;
   height: 120px;
 }
+.controlValue_Section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
