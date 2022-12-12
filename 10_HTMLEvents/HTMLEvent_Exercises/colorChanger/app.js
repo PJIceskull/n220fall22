@@ -20,4 +20,9 @@ function divClick(event) {
     // Created var for event.target
     let selectedDiv = event.target;
     console.log(selectedDiv);
+    // if selected Div is a div inside the greyDiv array
+    // Then change div color using rgbColor aray  
+    if (selectedDiv == greyDiv[0]) {
+        selectedDiv.style.backgroundColor = rgbColors[0];
+    }
 }
