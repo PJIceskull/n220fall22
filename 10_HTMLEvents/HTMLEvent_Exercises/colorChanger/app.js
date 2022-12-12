@@ -24,5 +24,9 @@ function divClick(event) {
     // Then change div color using rgbColor aray  
     if (selectedDiv == greyDiv[0]) {
         selectedDiv.style.backgroundColor = rgbColors[0];
+    } else if (selectedDiv == greyDiv[1]) {
+        selectedDiv.style.backgroundColor = rgbColors[1];
+    } else if (selectedDiv == greyDiv[2]) {
+        selectedDiv.style.backgroundColor = rgbColors[2];
     }
 }
