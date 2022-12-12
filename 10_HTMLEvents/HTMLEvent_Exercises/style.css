@@ -39,7 +39,7 @@ a {
 .controlValue_Section {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .controlValue_Section p {
   margin-right: 25px;
