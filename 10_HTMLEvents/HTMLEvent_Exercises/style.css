@@ -30,3 +30,8 @@ a {
   margin: 5px;
   /* float: left; */
 }
+#colorPreview {
+  background-color: black;
+  width: 50%;
+  height: 120px;
+}
