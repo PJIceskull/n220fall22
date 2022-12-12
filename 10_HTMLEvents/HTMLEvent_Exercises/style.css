@@ -22,7 +22,9 @@ a {
   margin-bottom: 15px;
   /* margin: 0 auto; */
 }
-
+.wrapper div {
+  margin-bottom: 25px;
+}
 .greyDiv {
   /* background-color: #c0c0c0; */
   /* width: 200px;
